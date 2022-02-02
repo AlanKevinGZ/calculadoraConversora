@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/calculadora.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Calculadora Conversora</title>
+</head>
+<body>
+  
+   <header>
+       <div class="contenedor">
+           <div class="titulo_header">
+               <div class="img_header">
+                <img src="img/calculadora.png" alt="">
+               </div>
+            <a href="index.html" rel="home">
+               <h1> Calculadora conversor</h1>
+            </a>
+           </div>
+       </div>
+   </header>
+
+   <main class="main">
+    <div class="contenedor">
+        <div class="sobre_main">
+            <h2>Segundos a horas</h2>
+
+            <div class="parrafo_sobre">
+                <p> <span class="spnBold">Convertir segundos a horas, minutos y segundos</span>  es una tarea sencilla pero que requiere de tiempo para hacerlo bien. Tenemos que hacer una serie de divisiones que, en ocasiones, nos pueden dar más de un quebradero de cabeza si no sabemos muy bien el procedimiento a seguir.</p>
+
+                <p>Por suerte, hemos creado para ti una calculadora para pasar de segundos a horas que te dará la conversión en formato decimal o para que se entienda mejor, en horas, minutos y segundos. Si quieres realizar la conversión inversa, también tenemos una herramienta para pasar de horas a segundos.</p>
+            </div>
+        </div>
+    </div>
+   </main>
+
+   <section class="section_form">
+        <div class="titulo_form">
+            <h2>Conversor de segundos a horas</h2>
+        </div>
+
+        <form action="" class="fomulario">
+           <div class="calcularS">
+            <label for="segundos">Segundos:</label>
+            <input type="number" id="segundos" min="1">
+           </div>
+
+           <div class="btn_calcular">
+               <input type="submit" value="Calcular" class="btn">
+           </div>
+
+           <div class="resultados">
+               <p>Representación del mismo resultado en horas + minutos + segundos</p>
+
+              <div class="Shoras">
+                  <label for="hora">Horas:</label>
+                  <input type="text" id="hora" disabled>
+
+              </div>
+
+              <div class="Sminutos">
+                <label for="minutos">Minutos:</label>
+                <input type="text" id="minutos" disabled>
+              </div>
+
+              <div class="Ssegundos">
+                <label for="segundos">Segundos:</label>
+                <input type="text" id="segundosR" disabled>
+              </div>
+           </div>
+
+
+        </form>
+   </section>
+
+   <footer>
+       <p>Calculadora</p>
+   </footer>
+
+   <script src="script/app.js"></script>
+    
+</body>
+</html>
